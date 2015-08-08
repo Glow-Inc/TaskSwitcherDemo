@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF48B9D1B75A8120086C0F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF48B9C1B75A8120086C0F5 /* main.m */; };
+		FAF48BA01B75A8120086C0F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF48B9F1B75A8120086C0F5 /* AppDelegate.m */; };
+		FAF48BA61B75A8120086C0F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF48BA41B75A8120086C0F5 /* Main.storyboard */; };
+		FAF48BA81B75A8120086C0F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF48BA71B75A8120086C0F5 /* Images.xcassets */; };
+		FAF48BAB1B75A8120086C0F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF48BA91B75A8120086C0F5 /* LaunchScreen.xib */; };
+		FAF48BB71B75A8120086C0F5 /* TaskSwitcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF48BB61B75A8120086C0F5 /* TaskSwitcherDemoTests.m */; };
+		FAF48BC21B75A8220086C0F5 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF48BC11B75A8220086C0F5 /* InfiniteScrollView.m */; };
+		FAF48BC51B75A8320086C0F5 /* TaskSwitcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF48BC41B75A8320086C0F5 /* TaskSwitcherViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF48BB11B75A8120086C0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF48B8F1B75A8120086C0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF48B961B75A8120086C0F5;
+			remoteInfo = TaskSwitcherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF48B971B75A8120086C0F5 /* TaskSwitcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskSwitcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF48B9B1B75A8120086C0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF48B9C1B75A8120086C0F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF48B9E1B75A8120086C0F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF48B9F1B75A8120086C0F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF48BA51B75A8120086C0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF48BA71B75A8120086C0F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF48BAA1B75A8120086C0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAF48BB01B75A8120086C0F5 /* TaskSwitcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskSwitcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF48BB51B75A8120086C0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF48BB61B75A8120086C0F5 /* TaskSwitcherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskSwitcherDemoTests.m; sourceTree = "<group>"; };
+		FAF48BC01B75A8220086C0F5 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
+		FAF48BC11B75A8220086C0F5 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
+		FAF48BC31B75A8320086C0F5 /* TaskSwitcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskSwitcherViewController.h; sourceTree = "<group>"; };
+		FAF48BC41B75A8320086C0F5 /* TaskSwitcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskSwitcherViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF48B941B75A8120086C0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF48BAD1B75A8120086C0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF48B8E1B75A8120086C0F5 = {
+			isa = PBXGroup;
+			children = (
+				FAF48B991B75A8120086C0F5 /* TaskSwitcherDemo */,
+				FAF48BB31B75A8120086C0F5 /* TaskSwitcherDemoTests */,
+				FAF48B981B75A8120086C0F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF48B981B75A8120086C0F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF48B971B75A8120086C0F5 /* TaskSwitcherDemo.app */,
+				FAF48BB01B75A8120086C0F5 /* TaskSwitcherDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF48B991B75A8120086C0F5 /* TaskSwitcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAF48BC31B75A8320086C0F5 /* TaskSwitcherViewController.h */,
+				FAF48BC41B75A8320086C0F5 /* TaskSwitcherViewController.m */,
+				FAF48BC01B75A8220086C0F5 /* InfiniteScrollView.h */,
+				FAF48BC11B75A8220086C0F5 /* InfiniteScrollView.m */,
+				FAF48B9E1B75A8120086C0F5 /* AppDelegate.h */,
+				FAF48B9F1B75A8120086C0F5 /* AppDelegate.m */,
+				FAF48BA41B75A8120086C0F5 /* Main.storyboard */,
+				FAF48BA71B75A8120086C0F5 /* Images.xcassets */,
+				FAF48BA91B75A8120086C0F5 /* LaunchScreen.xib */,
+				FAF48B9A1B75A8120086C0F5 /* Supporting Files */,
+			);
+			path = TaskSwitcherDemo;
+			sourceTree = "<group>";
+		};
+		FAF48B9A1B75A8120086C0F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF48B9B1B75A8120086C0F5 /* Info.plist */,
+				FAF48B9C1B75A8120086C0F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF48BB31B75A8120086C0F5 /* TaskSwitcherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF48BB61B75A8120086C0F5 /* TaskSwitcherDemoTests.m */,
+				FAF48BB41B75A8120086C0F5 /* Supporting Files */,
+			);
+			path = TaskSwitcherDemoTests;
+			sourceTree = "<group>";
+		};
+		FAF48BB41B75A8120086C0F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF48BB51B75A8120086C0F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF48B961B75A8120086C0F5 /* TaskSwitcherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF48BBA1B75A8120086C0F5 /* Build configuration list for PBXNativeTarget "TaskSwitcherDemo" */;
+			buildPhases = (
+				FAF48B931B75A8120086C0F5 /* Sources */,
+				FAF48B941B75A8120086C0F5 /* Frameworks */,
+				FAF48B951B75A8120086C0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskSwitcherDemo;
+			productName = TaskSwitcherDemo;
+			productReference = FAF48B971B75A8120086C0F5 /* TaskSwitcherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF48BAF1B75A8120086C0F5 /* TaskSwitcherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF48BBD1B75A8120086C0F5 /* Build configuration list for PBXNativeTarget "TaskSwitcherDemoTests" */;
+			buildPhases = (
+				FAF48BAC1B75A8120086C0F5 /* Sources */,
+				FAF48BAD1B75A8120086C0F5 /* Frameworks */,
+				FAF48BAE1B75A8120086C0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF48BB21B75A8120086C0F5 /* PBXTargetDependency */,
+			);
+			name = TaskSwitcherDemoTests;
+			productName = TaskSwitcherDemoTests;
+			productReference = FAF48BB01B75A8120086C0F5 /* TaskSwitcherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF48B8F1B75A8120086C0F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = glow;
+				TargetAttributes = {
+					FAF48B961B75A8120086C0F5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FAF48BAF1B75A8120086C0F5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FAF48B961B75A8120086C0F5;
+					};
+				};
+			};
+			buildConfigurationList = FAF48B921B75A8120086C0F5 /* Build configuration list for PBXProject "TaskSwitcherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF48B8E1B75A8120086C0F5;
+			productRefGroup = FAF48B981B75A8120086C0F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF48B961B75A8120086C0F5 /* TaskSwitcherDemo */,
+				FAF48BAF1B75A8120086C0F5 /* TaskSwitcherDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF48B951B75A8120086C0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF48BA61B75A8120086C0F5 /* Main.storyboard in Resources */,
+				FAF48BAB1B75A8120086C0F5 /* LaunchScreen.xib in Resources */,
+				FAF48BA81B75A8120086C0F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF48BAE1B75A8120086C0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF48B931B75A8120086C0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF48BC21B75A8220086C0F5 /* InfiniteScrollView.m in Sources */,
+				FAF48BA01B75A8120086C0F5 /* AppDelegate.m in Sources */,
+				FAF48BC51B75A8320086C0F5 /* TaskSwitcherViewController.m in Sources */,
+				FAF48B9D1B75A8120086C0F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF48BAC1B75A8120086C0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF48BB71B75A8120086C0F5 /* TaskSwitcherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF48BB21B75A8120086C0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF48B961B75A8120086C0F5 /* TaskSwitcherDemo */;
+			targetProxy = FAF48BB11B75A8120086C0F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF48BA41B75A8120086C0F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF48BA51B75A8120086C0F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF48BA91B75A8120086C0F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF48BAA1B75A8120086C0F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF48BB81B75A8120086C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF48BB91B75A8120086C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF48BBB1B75A8120086C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaskSwitcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF48BBC1B75A8120086C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaskSwitcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF48BBE1B75A8120086C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaskSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskSwitcherDemo.app/TaskSwitcherDemo";
+			};
+			name = Debug;
+		};
+		FAF48BBF1B75A8120086C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaskSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskSwitcherDemo.app/TaskSwitcherDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF48B921B75A8120086C0F5 /* Build configuration list for PBXProject "TaskSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF48BB81B75A8120086C0F5 /* Debug */,
+				FAF48BB91B75A8120086C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF48BBA1B75A8120086C0F5 /* Build configuration list for PBXNativeTarget "TaskSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF48BBB1B75A8120086C0F5 /* Debug */,
+				FAF48BBC1B75A8120086C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF48BBD1B75A8120086C0F5 /* Build configuration list for PBXNativeTarget "TaskSwitcherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF48BBE1B75A8120086C0F5 /* Debug */,
+				FAF48BBF1B75A8120086C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF48B8F1B75A8120086C0F5 /* Project object */;
+}
